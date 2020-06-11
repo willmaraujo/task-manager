@@ -1,0 +1,3 @@
+ng new task-manager
+ng g component tasks/shared/task
+ng g service tasks/list
