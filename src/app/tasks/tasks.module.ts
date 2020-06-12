@@ -11,7 +11,9 @@ import { RegisterComponent } from './register';
 @NgModule({
   declarations: [ListTaskComponent, RegisterComponent],
   imports: [
-    CommonModule
+    CommonModule,
+    RouterModule,
+    FormsModule
   ],
   providers: [TaskService]
 })
